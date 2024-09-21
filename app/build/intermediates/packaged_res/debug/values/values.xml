@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorPrimary">#0040FF</color>
+    <color name="colorPrimaryDark">#10028F</color>
+    <color name="white">#ffffff</color>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Quiz Demoapp</string>
+    <string name="default_web_client_id" translatable="false">662803359451-c3h5gc6agrv88baemunrca9bag0onv60.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">662803359451</string>
+    <string name="google_api_key" translatable="false">AIzaSyBPck3_xhxRfptXcu8z_bpvsqr0jbvSUGU</string>
+    <string name="google_app_id" translatable="false">1:662803359451:android:9532ca8b28614ec479cefe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBPck3_xhxRfptXcu8z_bpvsqr0jbvSUGU</string>
+    <string name="google_storage_bucket" translatable="false">quizdemoapp-db0d7.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Open navigation Close</string>
+    <string name="navigation_drawer_open">Open navigation Drawer</string>
+    <string name="project_id" translatable="false">quizdemoapp-db0d7</string>
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+    <style name="Theme.Quizdemoapp" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

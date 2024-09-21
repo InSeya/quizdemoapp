@@ -1,0 +1,266 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.quizdemoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
+14-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\Ayesha\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.quizdemoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\Ayesha\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\Ayesha\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.quizdemoapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\Ayesha\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\Ayesha\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:5:5-36:19
+23        android:allowBackup="true"
+23-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\Ayesha\.gradle\caches\transforms-3\2a6b8d47231ddcb1817ffe241541665b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:7:9-65
+26        android:debuggable="true"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:8:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:9:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:10:9-41
+30        android:supportsRtl="true"
+30-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:11:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Quizdemoapp" >
+32-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:12:9-49
+33        <activity
+33-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:14:9-16:40
+34            android:name="com.example.quizdemoapp.TestActivity"
+34-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:15:13-41
+35            android:exported="false" />
+35-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:16:13-37
+36        <activity
+36-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:17:9-19:40
+37            android:name="com.example.quizdemoapp.SignUpActivity"
+37-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:18:13-43
+38            android:exported="false" />
+38-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:19:13-37
+39        <activity
+39-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:20:9-22:40
+40            android:name="com.example.quizdemoapp.LoginActivity"
+40-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:21:13-42
+41            android:exported="false" />
+41-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:22:13-37
+42        <activity
+42-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:23:9-25:40
+43            android:name="com.example.quizdemoapp.MainActivity"
+43-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:24:13-41
+44            android:exported="false" />
+44-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:25:13-37
+45        <activity
+45-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:26:9-35:20
+46            android:name="com.example.quizdemoapp.SplashScreen"
+46-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:27:13-41
+47            android:exported="true"
+47-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:28:13-36
+48            android:theme="@style/Theme.AppCompat.NoActionBar" >
+48-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:29:13-63
+49            <intent-filter>
+49-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:30:13-34:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:31:17-69
+50-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:31:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:33:17-77
+52-->C:\Users\Ayesha\AndroidStudioProjects\quizdemoapp\app\src\main\AndroidManifest.xml:33:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <service
+56-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:29:13-84
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:34:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:30:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+61                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+61-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\b7b8006a849faf1fb736310d1de5b215\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+64-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+66        </service>
+67
+68        <activity
+68-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+69            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+69-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+75-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+77-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+78-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+83                    android:scheme="genericidp" />
+83-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+87            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+87-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+91-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+92            <intent-filter>
+92-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+93-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
+95-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
+96-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
+97
+98                <data
+98-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
+99                    android:host="firebase.auth"
+99-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
+100                    android:path="/"
+100-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
+101                    android:scheme="recaptcha" />
+101-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\3afb923e7b1ac148a98fb511c28eb345\transformed\firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
+102            </intent-filter>
+103        </activity>
+104        <activity
+104-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+105            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+105-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+106            android:excludeFromRecents="true"
+106-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+109        <!--
+110            Service handling Google Sign-In user revocation. For apps that do not integrate with
+111            Google Sign-In, this service will never be started.
+112        -->
+113        <service
+113-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+114            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+114-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+115            android:exported="true"
+115-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+116            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+116-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+117            android:visibleToInstantApps="true" />
+117-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\b38dca40cef3f65e0e0561e7a4e1dfaf\transformed\play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+118
+119        <provider
+119-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+120            android:name="com.google.firebase.provider.FirebaseInitProvider"
+120-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+121            android:authorities="com.example.quizdemoapp.firebaseinitprovider"
+121-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+122            android:directBootAware="true"
+122-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+123            android:exported="false"
+123-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+124            android:initOrder="100" />
+124-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Ayesha\.gradle\caches\transforms-3\cdd0f7caeec9444abcca8e71bd6b980c\transformed\firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ayesha\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ayesha\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ayesha\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Ayesha\.gradle\caches\transforms-3\756e26356ce30d9ce8eee13690c7d474\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+130
+131        <meta-data
+131-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+132            android:name="com.google.android.gms.version"
+132-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Ayesha\.gradle\caches\transforms-3\1fc68120dd3fdf196d75e6724d2fdc00\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+134
+135        <provider
+135-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+136            android:name="androidx.startup.InitializationProvider"
+136-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+137            android:authorities="com.example.quizdemoapp.androidx-startup"
+137-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+138            android:exported="false" >
+138-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+139            <meta-data
+139-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+140                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+141                android:value="androidx.startup" />
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Ayesha\.gradle\caches\transforms-3\4e0d57b59a48b0b47976dac5d8cbd717\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+142            <meta-data
+142-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\7f99fec45baa6b482cb18a0f870840bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+143                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+143-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\7f99fec45baa6b482cb18a0f870840bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+144                android:value="androidx.startup" />
+144-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Ayesha\.gradle\caches\transforms-3\7f99fec45baa6b482cb18a0f870840bf\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+145        </provider>
+146    </application>
+147
+148</manifest>
